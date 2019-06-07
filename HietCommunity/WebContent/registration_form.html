@@ -1,0 +1,254 @@
+<html>
+<head>
+<title>HIET_Society</title>
+<meta  name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <img src="images\hitechlogo.png" >
+    <nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container-fluid">
+        <div class="navbar-header ">
+            <a class="navbar-brand" href="index.html">HI-TECH Society</a>
+        </div>
+        <ul class="nav navbar-nav" style="z-index:0">
+            <li class="active"><a href="trendsetter.html"><b>TRENDSETTER</b></a></li>
+            <li ><a href="dawn.html"><b>DAWN</b></a></li>
+            <li><a href="gennext.html"><b>GENNEXT</b></a></li>
+            <li><a href="infovictus.html"><b>INFOVICTUS</b></a></li>
+            <li><a href="innoviz.html"><b>INNOVIZ</b></a></li>
+            <li><a href="stambh.html"><b>STAMBH</b></a></li>
+            <li><a href="ishrae&sae.html"><b>ISHRAE & SAE</b></a></li>
+               
+    </div>
+    </nav>
+    <style>.carousel-inner > .item > img { width:100%; height:570px; } </style>
+<link rel="stylesheet" type="text/css" href="hitech.css">
+<link rel="stylesheet" type="text/css" href="registration.css">
+<link rel="stylesheet" type="text/css" href="registration.css">
+</head>
+<body>
+    
+    <div container-fluid text-center>
+            <div class="col-sm-2 sidenav">
+                <div class="well left">
+                        <p id="header">Faculty</p>
+                        <div class="thumbnail">
+                            <img src="images\profile.png" alt="profile" width="100%"  >
+                            <div class="caption">Amit Sir</div>
+                        </div>
+                        <div class="thumbnail">
+                            <img src="images\profile.png" alt="profile2" width="100%">
+                            <div class="caption">Neetika Mam</div>
+                        </div>
+                </div>
+            </div>
+    </div>
+    <div container-fluid text-center>
+            <div class="col-sm-8 text-left">
+                <p>TrendSetter Society is a CCP's society which organize different types of events on various occasions.It helps students
+                    to increase their confidence and remove their hesitation.The main goal of TrendSetter is to make students more active.
+                </p>
+                <p>For Online Participation : 
+                    <button type="button" class="btn btn-info btn-sm" onclick="document.getElementById('id01').style.display='block'" style="width:auto;"><b>Click Here</b></button>
+                </p>
+                    <div id="id01" class="modal" style="cursor:pointer;">
+                        <span onclick="document.getElementById('id01').style.display='none'" class="close display-topright" title="Close Modal">&times;</span>
+                        <div class="animatezoom">
+                            <form class="modal-content card " action="/action_page" style="cursor:auto">
+                                <h1 class="rh1 ">Registration Form</h1>
+                                <p class="rheader">Please fill all the details </p>
+                                <hr>
+                                <div class="mar">
+                                <label for="name"><b>Name</b></label>
+                                <input type="text" placeholder="Enter name" name="username" required><br>
+                                <label for="email"><b>Email</b></label>
+                                <input type="text" placeholder="Enter Email" name="email" required><br>
+                                <label for="phone"><b>Phone</b></label><br>
+                                <input type="text" placeholder="Enter mobile no." name="mobile_number" required><br>
+                                <label for="address"><b>Address</b></label>
+                                <input type="text" placeholder="Enter your address" name="address" ><br>
+                                <label><b>Events</b></label><br>
+                                
+                                <div class="checkbox mar"><input type="checkbox"  name="e1" style="margin-bottom:15px">Event 1</div>
+                                <div class="checkbox mar"><input type="checkbox"  name="e2" style="margin-bottom:25px">Event 2</div>
+                                <div class="checkbox mar"><input type="checkbox"  name="e3" style="margin-bottom:15px">Event 3</div>
+                                <div class="checkbox mar"><input type="checkbox"  name="e4" style="margin-bottom:15px">Event 4</div>
+                                
+                                <br>
+                                <button type="submit" class="btn btn-success submitbtn">Submit</button>
+                        </div></div>
+                    </form>                    
+                </div>
+
+
+                <div class="jumbotron ecenter " style="background-color:#F5F6F7";>
+                    <div class="row ">
+                    <div class="col-md-4">
+                        <p id="ecenterHeading">Past Events</p>
+                        <button type="button" onclick="openModal()" class="btn btn-primary btn-sm viewAll">VIEW ALL</button>
+                        
+                        
+                        <div id="myModal" class="modal2">
+                             <span onclick="document.getElementById('myModal').style.display='none'" class="close display-topright" title="Close Modal">&times;</span>
+                            <div class="modal-content2">
+                                <div class="mySlides">
+                                    <img src="images\Cleaanliness Drive.jpg" style="width:100%">
+                                </div>
+                                <div class="mySlides">
+                                    <img src="images\Concrozza.jpg" style="width:100%">
+                                </div>
+                                <div class="mySlides">
+                                    <img src="images\26 January.jpg" style="width:100%">
+                                </div>
+                                <div class="mySlides" >
+                                    <img src="images\deeptimam.jpg" style="width:100%">
+                                </div>
+
+                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                
+                                <div class="caption-container">
+                                    <p id="caption"></p>
+                                </div>
+
+                                <div class="column">
+                                    <img class="demo cursor" src="images\Cleanliness Drive.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+                                  </div>
+                                  <div class="column">
+                                    <img class="demo cursor" src="images\Concrozza.jpg" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+                                  </div>
+                                  <div class="column">
+                                    <img class="demo cursor" src="images\26 January.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                                  </div>
+                                  <div class="column">
+                                    <img class="demo cursor" src="images\deeptimam.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+                                  </div>
+                                                          </div>
+                        </div>
+                       
+                        
+                        <div class="row1"><div class="i1 ">
+                            <img src="images\Cleanliness Drive.jpg " class="img-rounded Icenter zoom " style="width:200px" alt="pE1" >
+                            <div class="caption "><b style="padding-left:20px">Cleanliness Drive</b></div></div>
+                            <div class="i1"><img src="images\Cleanliness Drive.jpg " class="img-rounded Icenter zoom " style="width:200px" alt="pE1" >
+                            <div class="caption "><b style="padding-left:20px">Concrozza</b></div></div>
+                            <div class="i1"><img src="images\26 January.jpg" class="img-rounded Icenter zoom" style="width:200px" alt="p31">
+                            <div class="caption" ><b style="padding-left:20px">Republic Day</b></div> </div>
+                            <div class="i1"><img src="images\deeptimam.jpg" class="img-rounded Icenter zoom" style="width:200px" alt="p31">
+                            <div class="caption" ><b style="padding-left:20px">Valentine's Day</b></div> </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="jumbotron ecenter " style="background-color:#F5F6F7";>
+                    <div class="row ">
+                    <div class="col-md-4">
+                        <p id="ecenterHeading">Upcoming Events</p>
+                        <!--button type="button" class="btn btn-primary btn-sm viewAll">VIEW ALL</button>
+                        <div class="row1"><div class="i1 ">
+                            <img src="" class="img-rounded Icenter zoom " style="width:200px" alt="pE1" >
+                            <div class="caption "><b style="padding-left:20px">Cleanliness Drive</b></div></div>
+                            <div class="i1"><img src="images\" class="img-rounded Icenter zoom " style="width:200px" alt="pE1" >
+                            <div class="caption "><b style="padding-left:20px">Concrozza</b></div></div>
+                            <div class="i1"><img src="images\" class="img-rounded Icenter zoom" style="width:200px" alt="p31">
+                            <div class="caption" ><b style="padding-left:20px">Republic Day</b></div> </div>
+                            <div class="i1"><img src="images\" class="img-rounded Icenter zoom" style="width:200px" alt="p31">
+                            <div class="caption" ><b style="padding-left:20px">Valentine's Day</b></div> </div>
+                            -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jumbotron ecenter " style="background-color:#F5F6F7";>
+                        <div class="row ">
+                        <div class="col-md-4">
+                            <p id="ecenterHeading">Winners</p>
+                            <!--button type="button" class="btn btn-primary btn-sm viewAll">VIEW ALL</button>
+                            <div class="row1"><div class="i1 ">
+                                <img src="" class="img-rounded Icenter zoom " style="width:200px" alt="pE1" >
+                                <div class="caption "><b style="padding-left:20px">Cleanliness Drive</b></div></div>
+                                <div class="i1"><img src="images\" class="img-rounded Icenter zoom " style="width:200px" alt="pE1" >
+                                <div class="caption "><b style="padding-left:20px">Concrozza</b></div></div>
+                                <div class="i1"><img src="images\" class="img-rounded Icenter zoom" style="width:200px" alt="p31">
+                                <div class="caption" ><b style="padding-left:20px">Republic Day</b></div> </div>
+                                <div class="i1"><img src="images\" class="img-rounded Icenter zoom" style="width:200px" alt="p31">
+                                <div class="caption" ><b style="padding-left:20px">Valentine's Day</b></div> </div>
+                                -->
+                            </div>
+                        </div>
+                    </div>
+
+
+            </div>
+            
+        </div>
+    </div>
+    <div container-fluid text-center>
+                <div class="col-sm-2 sidenav">
+                    <div class="well left">
+                        <p id="header">Coordinators</p>
+                            <div class="thumbnail">
+                                <img src="images\profile.png" alt="profile" width="100%">
+                                <div class="caption">Deepika Sharma</div>
+                            </div>
+                            <div class="thumbnail">
+                                <img src="images\profile.png" alt="profile" width="100%">
+                                <div class="caption" >ABC</div>
+                            </div>
+                    </div>
+                </div>
+    </div>
+    <footer class="fluid   text-center footer_index" >
+            <b>Developed by MCA Department</b>  
+    </footer>
+
+    <script>
+        var modal=document.querySelector(".modal");
+        window.onclick=function(event){
+            if(event.target==modal){
+                modal.style.display="none";
+            }
+        } 
+        
+        function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+        </script>
+</body>
+</html> 

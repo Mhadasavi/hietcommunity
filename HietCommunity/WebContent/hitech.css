@@ -1,0 +1,119 @@
+
+#menubar{
+        background-color:black;
+        height:50px;
+        width:99.85%;
+        padding:1px;
+        }
+.uldemo{
+        font-family:Calibri;
+        font-style:bold;
+        color:white;
+        display:inline;
+        margin-left:50px;
+        padding-top:20px
+        }
+#product_image{
+                height:210;
+                background-color:white;
+              }
+.jumbotron{   
+    overflow:hidden;
+        padding-top: 10px;
+            padding-bottom:10px;
+            width: 100%; /* make sure to define width to fill container */
+                   /* you have something in your div with height */
+                   /* so you can see your image */
+            }
+.div2{
+     background-color:lightgrey;
+     width:200px;
+     border:200px;
+     }
+.well.left{
+            
+             margin:1px;
+             padding-top:7px;
+             padding-left:7px;
+             padding-right:7px;
+             padding-bottom:5px;
+             text-align:center;
+             
+            }
+.Icenter{
+                height:180px; 
+                width:180px;
+                margin-left:15px;
+                padding-top:7px;
+                padding-right:7px;
+                text-align:center;
+                font-family:calibri;
+
+            }
+            img-wrap {
+                    width:auto;
+                    height:auto;
+                    
+            }
+.ic{
+        color:#477090; 
+        padding-top:10px;
+        padding-bottom:10px;
+        width: 100%; /* make sure to define width to fill container */
+                          /* you have something in your div with height */
+                          /* so you can see your image */
+  }
+  .jumbotron.ecenter{
+          position:relative;
+          box-shadow:1px 1px 1px grey;
+  }
+.btn.viewAll{
+        position:absolute;
+        top:2px;
+        margin-left:260%;
+        font-family:calibri;
+}
+#ecenterHeading{
+        font-size:20px;
+        height:5%;
+        color:#1f283a;
+        padding-left:15px;
+        
+
+
+}
+.zoom{
+        transition:transform .2s;
+        }
+.zoom:hover{
+        transform:scale(1.2);
+}
+*{
+        box-sizing:border-box;
+}
+.row1{
+        display:flex;
+
+        }
+.i1{
+        background-color:#FFFCFC;
+        padding-left:1px;
+        padding-bottom:5px;        
+        padding-right:1px;
+}
+.footer_index{
+            background-color:#211D1D;
+            position:fixed;
+            color:#4088E1;
+            left:0;
+            bottom:0;
+            width:100%;
+            
+        }
+        
+        @media only screen and (max-width:700px){
+                .fs{
+                        font-size:5px;
+                      
+                }
+        }
